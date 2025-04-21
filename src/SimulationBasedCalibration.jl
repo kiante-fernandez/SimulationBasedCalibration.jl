@@ -1,3 +1,9 @@
+"""
+    SimulationBasedCalibration
+
+See documentation at: 
+https://kiante-fernandez.github.io/SimulationBasedCalibration.jl/dev/
+"""
 module SimulationBasedCalibration
 
 using Random
