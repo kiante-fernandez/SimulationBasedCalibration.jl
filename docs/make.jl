@@ -19,7 +19,4 @@ makedocs(;
     ],
 )
 
-deploydocs(
-    repo = "github.com/kiante-fernandez/SimulationBasedCalibration.jl.git",
-    devbranch = "main"
-)
+deploydocs(repo = "github.com/kiante-fernandez/SimulationBasedCalibration.jl.git")
