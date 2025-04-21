@@ -1,7 +1,7 @@
 using SimulationBasedCalibration
 using Documenter
 
-DocMeta.setdocmeta!(SimulationBasedCalibration, :DocTestSetup, :(using SimulationBasedCalibration); recursive=true)
+#DocMeta.setdocmeta!(SimulationBasedCalibration, :DocTestSetup, :(using SimulationBasedCalibration); recursive=true)
 
 makedocs(;
     modules=[SimulationBasedCalibration],
@@ -19,7 +19,4 @@ makedocs(;
     ],
 )
 
-deploydocs(;
-    repo="github.com/kiante-fernandez/SimulationBasedCalibration.jl",
-    devbranch="main",
-)
+deploydocs(repo = "github.com/kiante-fernandez/SimulationBasedCalibration.jl.git")
