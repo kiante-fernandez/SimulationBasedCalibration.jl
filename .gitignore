@@ -10,3 +10,5 @@ Manifest.toml
 /temp
 /benchmark/*.json
 /benchmark/*.md
+.DS_Store
+**/.DS_Store
