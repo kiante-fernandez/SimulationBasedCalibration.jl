@@ -34,11 +34,11 @@ function normal_generator(; n_obs=20)
 end
 
 # Create generator and backend
-generator = SBCGeneratorFunction(normal_generator, n_obs=20)
-backend = TuringBackend(normal_model, n_samples=1000, n_chains=2)
+generator = SBCGeneratorFunction(normal_generator, n_obs=200)
+backend = TuringBackend(normal_model, n_samples=1000, n_chains=3)
 
 # Generate datasets
-datasets = generate_datasets(generator, 50)
+datasets = generate_datasets(generator, 100)
 
 # Run SBC
 results = compute_sbc(datasets, backend)
