@@ -10,6 +10,12 @@ SimulationBasedCalibration.jl provides tools to validate your Bayesian model and
 
 ## Installation
 
+You can install a stable version of *SimulationBasedCalibration* by running the following in the Julia REPL:
+
+```julia
+] add SimulationBasedCalibration
+```
+
 To install the development version of SimulationBasedCalibration.jl, run:
 
 ```julia
